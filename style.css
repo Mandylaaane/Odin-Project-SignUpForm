@@ -26,6 +26,8 @@ body {
 .right {
     display: flex;
     flex-direction: column;
+    background-color: #f0f3f7; 
+    width: 65vw;
 
 }
 
@@ -33,11 +35,29 @@ body {
 
 #intro {
     height: 40vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
+
 
 }
 
 .subscribe {
     height:  30vh;
+    background-color: white;
+
+}
+
+.form-main {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.form-divs {
+    
 
 }
 
