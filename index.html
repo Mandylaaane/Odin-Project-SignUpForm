@@ -32,7 +32,7 @@
       </div>
 
       <div class="subscribe">
-        <h1>Let's go!</h1>
+        <h1 id="letsgo">Let's go!</h1>
         <form action="" method="get" class="form-main">
           <div class="form-divs">
             <div class="form-div">
@@ -45,7 +45,8 @@
             </div>
             <div class="form-div">
               <label for="password">Password</label>
-              <input type="text" id="password" name="password">
+              <input type="text" id="password" name="password" required>
+              <p id="error"></p>
             </div>
           </div>
 
@@ -60,7 +61,7 @@
             </div>
             <div class="form-div">
               <label for="confirmPassword">Confirm Password</label>
-              <input type="text" id="confirmPassword" name="confirm_password">
+              <input type="text" id="confirmPassword" name="confirm_password" required>
             </div>
           </div>
         </form>

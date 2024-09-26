@@ -50,16 +50,50 @@ body {
 
 }
 
+#letsgo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
 .form-main {
     display: flex;
     flex-direction: row;
+    margin-left: 50px;
+    width: 60%;
+    justify-content: space-between;
 
 }
 
 .form-divs {
     
+    
 
 }
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 200px;
+    border: 1px solid #ced1d5;
+    height: 25px;
+    border-radius: 5px;
+
+}
+
+input:focus {
+    border: 1px solid #139aa7;
+
+}
+
+input:invalid {
+    border: 1px solid red
+}
+
 
 .create-account {
     height:  30vh;
