@@ -42,13 +42,14 @@ body {
 
 
 #intro {
-    height: 30vh;
-    font-size: larger;
+    height: 20vh;
+    font-size: large;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-left: 5%;
     margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .subscribe {
@@ -57,7 +58,7 @@ body {
 }
 
 #letsgo {
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 20px;
     margin-left: 50px;
 }
@@ -79,7 +80,7 @@ body {
 .form-div {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 input {
@@ -87,11 +88,12 @@ input {
     border: 1px solid #ced1d5;
     height: 25px;
     border-radius: 5px;
+    box-shadow: black;
 
 }
 
 input:focus {
-    border: 1px solid #139aa7;
+    border: 1px solid black;
 
 }
 
@@ -101,18 +103,14 @@ input:invalid {
 
 #error {
     color: rgb(189, 4, 4)
-    
 }
 
 
 .create-account {
-    height:  30vh;
+    height:  25vh;
     display: flex;
     flex-direction: column;
     margin-left: 50px;
-    
-    
-    
 }
 
 .btn-submit {
@@ -120,9 +118,24 @@ input:invalid {
     background-color: #7ddfe8;
     color: white;
     border: 1px solid black;
-    height: 25px;
+    height: 30px;
     border-radius: 5px;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
+    font-family: "Oswald", sans-serif;
+    font-size: medium;    
+}
+
+.hyperlink {
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    
+}
+
+a {
+    color: #139aa7; 
 }
 
